@@ -152,41 +152,42 @@ footer {
     
     /* Ajustes na "cabeça pai" (Header) */
     header {
-        flex-direction: column; /* Coloca a logo em cima e o menu embaixo */
+        flex-direction: column; 
         padding: 15px 20px;
         gap: 15px;
     }
 
     .menu {
-        margin-right: 0; /* Tira a margem para centralizar melhor */
-        flex-wrap: wrap; /* Deixa os links quebrarem linha se a tela for muito estreita */
+        margin-right: 0; 
+        flex-wrap: wrap; 
         gap: 15px;
     }
 
-    /* Ajustes na área principal (Main e Carro) */
+    
     main img {
-        max-width: 95%; /* Aumenta o espaço do carro na tela do celular (antes era 80%) */
+        max-width: 95%; 
     }
 
     .CarroPreto {
         max-width: 95%;
     }
 
-    /* Ajustes no Rodapé (Footer) */
+    
     footer {
-        flex-direction: column; /* Empilha as redes sociais e os direitos autorais */
-        height: auto; /* Tira a trava de 80px de altura para não cortar nada */
+        flex-direction: column; 
+        height: auto; 
         padding: 20px;
         gap: 15px;
         text-align: center;
     }
 
     .Copyright {
-        margin-right: 0; /* Tira a margem direita para ficar bem no meio */
+        margin-right: 0; 
     }
     
     .redes-socias {
         justify-content: center;
     }
+
 }
 
