@@ -58,7 +58,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Empurra logo para um lado e menu para o outro */
+    justify-content: space-between; 
     padding: 10px 50px;
     border-bottom: 1px solid #eee;
 }
@@ -69,10 +69,10 @@ header {
 
 .menu {
     display: flex; 
-    justify-content: center; /* Move os itens para o centro horizontal */
+    justify-content: center; 
     gap: 30px;              
     width: 100%;
-    margin-right: 5%;  
+    margin: 0 5.2% 0 0;     
  }
 .menu a {
     text-decoration: none;
@@ -195,9 +195,7 @@ main {
     margin-right: 5%; 
 }
 
-/* =========================================
-   MEDIA QUERY PARA CELULARES / TABLETS
-   ========================================= */
+/* MEDIA QUERY PARA CELULARES / TABLETS */
 @media screen and (max-width: 768px) {
     
     

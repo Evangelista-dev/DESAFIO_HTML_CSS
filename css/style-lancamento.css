@@ -72,7 +72,7 @@ header {
     justify-content: center; 
     gap: 30px;              
     width: 100%;
-    margin-right: 5%;  
+    margin: 0 5.2% 0 0;    
  }
 .menu a {
     text-decoration: none;
@@ -135,7 +135,7 @@ footer {
 
 .Lista_Lançamento {
     display: flex; 
-    flex-wrap: wrap; /* se for grandao desses (la ele)kk */
+    flex-wrap: wrap; /* se for grandao desses (la ele) */
     gap: 20px; 
     list-style: none;
     padding: 20px;
@@ -145,7 +145,7 @@ footer {
 
 .Card-Carro {
     background: #ffffff;
-    border-radius: 12px; /* Bordas arredondadas viadagem */
+    border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 15px;
     width: 300px; /* Largura fixa para manter o padrão swag */
@@ -241,9 +241,7 @@ footer {
 }
 
 
-/* =========================================
-   MEDIA QUERY PARA CELULARES / TABLETS
-   ========================================= */
+/*MEDIA QUERY PARA CELULARES / TABLETS*/
    @media (max-width: 1269px) {
     .video {
         width: 100%;

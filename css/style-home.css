@@ -82,7 +82,7 @@ header {
     justify-content: center; 
     gap: 30px;              
     width: 100%;
-    margin-right: 5%;  
+    margin: 0 5.2% 0 0;  
     font-family: "DM Sans", sans-serif;
  }
 .menu a {
@@ -145,9 +145,7 @@ footer {
     margin-right: 5%; 
 }
 
-/* =========================================
-   MEDIA QUERY PARA CELULARES / TABLETS
-   ========================================= */
+/*  MEDIA QUERY PARA CELULARES / TABLETS*/
 @media screen and (max-width: 768px) {
     
     /* Ajustes na "cabeça pai" (Header) */
