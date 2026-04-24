@@ -1,62 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 main {
     flex: 1;
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 main img {
-    max-width: 80%; /*  po carro não bater nas bordas */
+
+    width: 1600px;
     height: auto;
 }
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -65,127 +20,16 @@ body {
     flex-direction: column;
 }
 
-/* A cabeça pai */
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #eee;
-}
-
-.logo-canto {
-    width: 100px; 
-}
-
-.menu {
-    display: flex; 
-    justify-content: center; 
-    gap: 30px;              
-    width: 100%;
-    margin: 0 5.2% 0 0;  
-    font-family: "DM Sans", sans-serif;
- }
-.menu a {
-    text-decoration: none;
-    color: #1b4d8f;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.menu a:hover {
-    color: rgba(45, 124, 189, 0.829)
-}
-
 .CarroPreto {
-    max-width: 80%;
+
+    max-width: 100%;
     height: auto;
-}
-
-footer {
-    background-color: #102a4d; 
-    height: 80px;
-    color: white;
+    justify-content: center;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 50px;
+
 }
- .redes-socias {
+
+.novidadetropa {
     font-family: "DM Sans", sans-serif;
-    align-items: center;
-    gap: 15px;
-    display: flex;
-   
+    font-size: 20px;
 }
-
-.redes-socias img {
-    width: 30px;
-    height: auto;
-}
-
-.buttonlaca:hover {
-    transform: scale(1.05); 
-    transform: translateY(-5px);
-    transition: all 0.3s ease;
-}
-.buttonhome:hover {
-    transform: scale(1.05); 
-    transform: translateY(-5px);
-    transition: all 0.3s ease;
-}
-.buttoncontato:hover {
-    
-    transform: scale(1.05); 
-    transform: translateY(-5px);
-    transition: all 0.3s ease;
-}
-
-.Copyright {
-    font-family: "DM Sans", sans-serif;
-    margin-right: 5%; 
-}
-
-/*  MEDIA QUERY PARA CELULARES / TABLETS*/
-@media screen and (max-width: 768px) {
-    
-    /* Ajustes na "cabeça pai" (Header) */
-    header {
-        flex-direction: column; 
-        padding: 15px 20px;
-        gap: 15px;
-    }
-
-    .menu {
-        margin-right: 0; 
-        flex-wrap: wrap; 
-        gap: 15px;
-    }
-
-    
-    main img {
-        max-width: 95%; 
-    }
-
-    .CarroPreto {
-        max-width: 95%;
-    }
-
-    
-    footer {
-        flex-direction: column; 
-        height: auto; 
-        padding: 20px;
-        gap: 15px;
-        text-align: center;
-    }
-
-    .Copyright {
-        margin-right: 0; 
-    }
-    
-    .redes-socias {
-        justify-content: center;
-    }
-
-}
-

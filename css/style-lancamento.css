@@ -1,52 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -55,103 +6,48 @@ body {
     flex-direction: column;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    padding: 10px 50px;
-    border-bottom: 1px solid #eee;
-}
-
-.logo-canto {
-    width: 100px; 
-}
-
-.menu {
-    display: flex; 
-    justify-content: center; 
-    gap: 30px;              
-    width: 100%;
-    margin: 0 5.2% 0 0;    
- }
-.menu a {
-    text-decoration: none;
-    color: #1b4d8f; 
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.menu a:hover {
-    color: rgba(45, 124, 189, 0.829)
-}
-
 main {
     flex: 1;
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 main img {
-    max-width: 80%; 
+    max-width: 80%;
     height: auto;
 }
 
 .video {
     display: block;
     margin-bottom: 100px;
-    margin-top: 50px; 
+    margin-top: 50px;
     width: 1200px;
     height: 600px;
-    
-}
 
-
-
-/* Rotape fixo */
-footer {
-    background-color: #102a4d; /* Azul escuro do rodapé Ford */
-    height: 80px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 50px;
-    gap: 50px;
 }
- .redes-socias {
-    align-items: center;
-    gap: 15px;
-    display: flex
- 
-    
-}
-.redes-socias img {
-    width: 30px;
-    height: auto;
-}
-
 
 .Lista_Lançamento {
-    display: flex; 
-    flex-wrap: wrap; /* se for grandao desses (la ele) */
-    gap: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    /* se for grandao desses (la ele) */
+    gap: 20px;
     list-style: none;
     padding: 20px;
-    justify-content: center; 
+    justify-content: center;
 }
-
 
 .Card-Carro {
     background: #ffffff;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 15px;
-    width: 300px; /* Largura fixa para manter o padrão swag */
+    width: 300px;
+    /* Largura fixa para manter o padrão swag */
     display: flex;
-    flex-direction: column; 
-    transition: transform 0.3s ease; 
+    flex-direction: column;
+    transition: transform 0.3s ease;
     border: 1px solid #eee;
 }
 
@@ -161,17 +57,18 @@ footer {
 }
 
 
-.XL-AT img, .XL-MT img {
+.XL-AT img,
+.XL-MT img {
     width: 100%;
     height: 200px;
-    object-fit: contain; 
-    background-color: #f9f9f9; 
+    object-fit: contain;
+    background-color: #f9f9f9;
     border-radius: 8px;
     justify-content: center;
 }
 
 .preco {
-    color: #2b9348; 
+    color: #2b9348;
     font-weight: 600;
     font-family: "DM Sans", sans-serif;
     display: flex;
@@ -180,7 +77,7 @@ footer {
 
 
 .option {
-    margin-top: auto; 
+    margin-top: auto;
     text-align: right;
     padding-top: 10px;
 }
@@ -192,57 +89,38 @@ footer {
 }
 
 .Card-Carro {
-  color: #1b4d8f;
-  font-family: "DM Sans", sans-serif;
+    color: #1b4d8f;
+    font-family: "DM Sans", sans-serif;
 }
 
 .btn-comparar {
     display: inline-block;
-    background-color: #0056b3; 
+    background-color: #0056b3;
     color: white;
     padding: 15px 50px;
-    border-radius: 15px; 
+    border-radius: 15px;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     text-align: center;
     margin-top: 15px;
-    cursor: default; 
-    margin: 15px 0 15px 0 ;
-    transition: transform 0.3s ease; 
+    cursor: default;
+    margin: 15px 0 15px 0;
+    transition: transform 0.5s ease;
     box-shadow: 0 4px 6px rgba(0, 86, 179, 0.2);
     border: none;
-    
+
     background: linear-gradient(135deg, #0056b3 0%, #007bff 100%);
 }
-.btn-comparar:hover{
-    transform: translateY(-5px);
-}
 
-.buttonlaca:hover {
-    transform: scale(1.05); 
+.btn-comparar:hover {
     transform: translateY(-5px);
-    transition: all 0.3s ease;
-}
-.buttonhome:hover {
-    transform: scale(1.05); 
-    transform: translateY(-5px);
-    transition: all 0.3s ease;
-}
-.buttoncontato:hover {
-    transform: scale(1.05); 
-    transform: translateY(-5px);
-    transition: all 0.3s ease;
-}
-
-.Copyright {
-    margin-right: 5%; 
 }
 
 
 /*MEDIA QUERY PARA CELULARES / TABLETS*/
-   @media (max-width: 1269px) {
+@media (max-width: 1269px) {
     .video {
         width: 100%;
         aspect-ratio: 16 / 9;
@@ -252,23 +130,9 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    
-    /* Ajustes no Header */
-    header {
-        flex-direction: column; 
-        padding: 15px 20px;
-        gap: 15px;
-    }
 
-    .menu {
-        margin-right: 0;
-        flex-wrap: wrap; 
-        gap: 15px;
-    }
-
-    
     main img {
-        max-width: 95%; 
+        max-width: 95%;
     }
 
 
@@ -281,26 +145,7 @@ footer {
         width: 60%;
         height: 60%;
         justify-content: center;
-        
-    }
 
-    
-    footer {
-        flex-direction: column; 
-        height: auto; 
-        padding: 20px;
-        gap: 20px;
-        text-align: center;
-        justify-content: center;
     }
-
-    .Copyright {
-        margin-right: 0;
-    }
-    
-    .redes-socias {
-        justify-content: center;
-    }
-
 
 }
