@@ -150,6 +150,7 @@ header {
 }
 
 .menu {
+    flex: 1;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -206,10 +207,10 @@ footer {
 
 
 
-/*  MEDIA QUERY PARA CELULARES / TABLETS*/
+
 @media screen and (max-width: 768px) {
 
-    /* Ajustes na "cabeça pai" (Header) */
+    
     header {
         flex-direction: column;
         padding: 15px 20px;
@@ -220,15 +221,6 @@ footer {
         margin-right: 0;
         flex-wrap: wrap;
         gap: 15px;
-    }
-
-
-    main img {
-        max-width: 95%;
-    }
-
-    .CarroPreto {
-        max-width: 95%;
     }
 
 
