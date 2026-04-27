@@ -44,8 +44,7 @@ body {
     }
 
     .CarroPreto {
-        max-width: 70%;
-        max-height: 70%;
+        max-width: 100%;
         justify-content: center;
         display: flex;
     

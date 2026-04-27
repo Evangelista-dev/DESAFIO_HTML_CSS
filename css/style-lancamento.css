@@ -139,7 +139,7 @@ main img {
 }
 
 
-/*MEDIA QUERY PARA CELULARES / TABLETS*/
+
 @media (max-width: 1269px) {
     .video {
         width: 100%;
